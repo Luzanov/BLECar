@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5EB48A01FC84549007D52E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB489F1FC84549007D52E5 /* AppDelegate.swift */; };
+		E5EB48A51FC84549007D52E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EB48A31FC84549007D52E5 /* Main.storyboard */; };
+		E5EB48A71FC84549007D52E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5EB48A61FC84549007D52E5 /* Assets.xcassets */; };
+		E5EB48AA1FC84549007D52E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EB48A81FC84549007D52E5 /* LaunchScreen.storyboard */; };
+		E5EB48B41FC84597007D52E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB48B31FC84597007D52E5 /* MainViewController.swift */; };
+		E5EB48B61FC845CD007D52E5 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB48B51FC845CD007D52E5 /* Notifications.swift */; };
+		E5EB48B91FC8462D007D52E5 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB48B81FC8462D007D52E5 /* ControlViewController.swift */; };
+		E5EB48BC1FC84653007D52E5 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB48BB1FC84653007D52E5 /* ControlView.swift */; };
+		E5EB48BE1FC84671007D52E5 /* SpeedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB48BD1FC84671007D52E5 /* SpeedControlView.swift */; };
+		E5EB48C01FC8468F007D52E5 /* DirectionControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB48BF1FC8468F007D52E5 /* DirectionControlView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5EB489C1FC84549007D52E5 /* BLECar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLECar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5EB489F1FC84549007D52E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5EB48A41FC84549007D52E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5EB48A61FC84549007D52E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5EB48A91FC84549007D52E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5EB48B31FC84597007D52E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E5EB48B51FC845CD007D52E5 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		E5EB48B81FC8462D007D52E5 /* ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		E5EB48BB1FC84653007D52E5 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		E5EB48BD1FC84671007D52E5 /* SpeedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedControlView.swift; sourceTree = "<group>"; };
+		E5EB48BF1FC8468F007D52E5 /* DirectionControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionControlView.swift; sourceTree = "<group>"; };
+		E5EB48C11FC84775007D52E5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BLECar/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5EB48991FC84549007D52E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5EB48931FC84549007D52E5 = {
+			isa = PBXGroup;
+			children = (
+				E5EB489E1FC84549007D52E5 /* BLECar */,
+				E5EB489D1FC84549007D52E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5EB489D1FC84549007D52E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5EB489C1FC84549007D52E5 /* BLECar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5EB489E1FC84549007D52E5 /* BLECar */ = {
+			isa = PBXGroup;
+			children = (
+				E5EB489F1FC84549007D52E5 /* AppDelegate.swift */,
+				E5EB48B51FC845CD007D52E5 /* Notifications.swift */,
+				E5EB48B21FC84587007D52E5 /* Main */,
+				E5EB48B71FC8461E007D52E5 /* Control */,
+				E5EB48A31FC84549007D52E5 /* Main.storyboard */,
+				E5EB48A61FC84549007D52E5 /* Assets.xcassets */,
+				E5EB48B11FC84555007D52E5 /* Supporting Files */,
+			);
+			path = BLECar;
+			sourceTree = "<group>";
+		};
+		E5EB48B11FC84555007D52E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5EB48C11FC84775007D52E5 /* Info.plist */,
+				E5EB48A81FC84549007D52E5 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5EB48B21FC84587007D52E5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E5EB48B31FC84597007D52E5 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E5EB48B71FC8461E007D52E5 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				E5EB48B81FC8462D007D52E5 /* ControlViewController.swift */,
+				E5EB48BA1FC84649007D52E5 /* ControlViews */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		E5EB48BA1FC84649007D52E5 /* ControlViews */ = {
+			isa = PBXGroup;
+			children = (
+				E5EB48BB1FC84653007D52E5 /* ControlView.swift */,
+				E5EB48BD1FC84671007D52E5 /* SpeedControlView.swift */,
+				E5EB48BF1FC8468F007D52E5 /* DirectionControlView.swift */,
+			);
+			path = ControlViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5EB489B1FC84549007D52E5 /* BLECar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5EB48AE1FC84549007D52E5 /* Build configuration list for PBXNativeTarget "BLECar" */;
+			buildPhases = (
+				E5EB48981FC84549007D52E5 /* Sources */,
+				E5EB48991FC84549007D52E5 /* Frameworks */,
+				E5EB489A1FC84549007D52E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLECar;
+			productName = BLECar;
+			productReference = E5EB489C1FC84549007D52E5 /* BLECar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5EB48941FC84549007D52E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LuzanovRoman;
+				TargetAttributes = {
+					E5EB489B1FC84549007D52E5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E5EB48971FC84549007D52E5 /* Build configuration list for PBXProject "BLECar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5EB48931FC84549007D52E5;
+			productRefGroup = E5EB489D1FC84549007D52E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5EB489B1FC84549007D52E5 /* BLECar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5EB489A1FC84549007D52E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EB48AA1FC84549007D52E5 /* LaunchScreen.storyboard in Resources */,
+				E5EB48A71FC84549007D52E5 /* Assets.xcassets in Resources */,
+				E5EB48A51FC84549007D52E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5EB48981FC84549007D52E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EB48B61FC845CD007D52E5 /* Notifications.swift in Sources */,
+				E5EB48B41FC84597007D52E5 /* MainViewController.swift in Sources */,
+				E5EB48BE1FC84671007D52E5 /* SpeedControlView.swift in Sources */,
+				E5EB48C01FC8468F007D52E5 /* DirectionControlView.swift in Sources */,
+				E5EB48B91FC8462D007D52E5 /* ControlViewController.swift in Sources */,
+				E5EB48A01FC84549007D52E5 /* AppDelegate.swift in Sources */,
+				E5EB48BC1FC84653007D52E5 /* ControlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5EB48A31FC84549007D52E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5EB48A41FC84549007D52E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5EB48A81FC84549007D52E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5EB48A91FC84549007D52E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5EB48AC1FC84549007D52E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5EB48AD1FC84549007D52E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5EB48AF1FC84549007D52E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q854AZ8Q5;
+				INFOPLIST_FILE = BLECar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luzanovroman.BLECar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5EB48B01FC84549007D52E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q854AZ8Q5;
+				INFOPLIST_FILE = BLECar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luzanovroman.BLECar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5EB48971FC84549007D52E5 /* Build configuration list for PBXProject "BLECar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5EB48AC1FC84549007D52E5 /* Debug */,
+				E5EB48AD1FC84549007D52E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5EB48AE1FC84549007D52E5 /* Build configuration list for PBXNativeTarget "BLECar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5EB48AF1FC84549007D52E5 /* Debug */,
+				E5EB48B01FC84549007D52E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5EB48941FC84549007D52E5 /* Project object */;
+}
