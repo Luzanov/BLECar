@@ -42,11 +42,12 @@ class ControlViewController: UIViewController, DirectionControlDelegate, SpeedCo
         guard let peripheral = mainPeripheral, let characteristic = mainCharacteristic else { return }
         
         if currentDirection != lastDirection || currentSpeed != lastSpeed {
-            var direction = currentDirection != lastDirection ? currentDirection : -1;
-            var speed = currentSpeed;
-            var data = Data(buffer: UnsafeBufferPointer(start: &direction, count: 1))
-            data.append(Data(buffer: UnsafeBufferPointer(start: &speed, count: 1)))
-            peripheral.writeValue(data, for: characteristic, type: .withoutResponse)
+            let direction = currentDirection != lastDirection ? currentDirection : -1;
+            let speed = currentSpeed;
+            
+            let directionData = withUnsafeBytes(of: direction) { Data($0) }
+            let speedData = withUnsafeBytes(of: speed) { Data($0) }
+            peripheral.writeValue(directionData + speedData, for: characteristic, type: .withoutResponse)
             lastDirection = currentDirection
             lastSpeed = currentSpeed
         }

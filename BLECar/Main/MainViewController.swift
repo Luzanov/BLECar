@@ -21,8 +21,8 @@ class MainViewController: UIViewController, CBCentralManagerDelegate, CBPeripher
     override func viewDidLoad() {
         super.viewDidLoad()
         mainCentralManager = CBCentralManager(delegate: self, queue: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(startScanIfNeeded), name: .UIApplicationDidBecomeActive, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(stopScan), name: .UIApplicationWillResignActive, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(startScanIfNeeded), name: UIApplication.didBecomeActiveNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(stopScan), name: UIApplication.willResignActiveNotification, object: nil)
     }
     
     @objc func startScanIfNeeded() {
@@ -69,6 +69,9 @@ class MainViewController: UIViewController, CBCentralManagerDelegate, CBPeripher
             
         case .unsupported:
             bleStatusLabel.text = "Your device doesn't support BLE"
+            
+        @unknown default:
+            bleStatusLabel.text = "BLE unknown state"
         }
         startButton.isEnabled = mainCharacteristic != nil
     }
